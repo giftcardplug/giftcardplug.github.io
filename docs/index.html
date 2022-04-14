@@ -55,7 +55,41 @@
     <div id="preload-logo"></div>
     <div id="preloader"><span></span></div>
   </div>
+          <head>
+						<meta property="og:site_name" content="AppTweaks" />
+						<meta property="og:title" content="The Best AppTweaks in the world!" />
+						<meta property=”og:image” contetn="https://imgur.com/lDII0dm.png"
+						<!-- The following are optional -->
+						<meta
+						  property="snapchat:sticker"
+						  content="https://imgur.com/lDII0dm.png"
+						/>
 
+					  </head>
+					
+					  <body>
+						<!-- See following sections for more information on parameters -->
+						<div
+						  class="snapchat-creative-kit-share"
+						  data-theme="light"
+						  data-size="large"
+						  data-text="true"
+						  data-share-url="https://imgur.com/lDII0dm.png"
+						></div>
+					
+						<script>
+						  // Load the SDK asynchronously
+						  (function (d, s, id) {
+							var js,
+							  sjs = d.getElementsByTagName(s)[0];
+							if (d.getElementById(id)) return;
+							js = d.createElement(s);
+							js.id = id;
+							js.src = "https://sdk.snapkit.com/js/v1/create.js";
+							sjs.parentNode.insertBefore(js, sjs);
+						  })(document, "script", "snapkit-creative-kit-sdk");
+						</script>
+					</body>
   <div id="menu">
     <ul>
       <a href="index.html" id="menu-logo"></a>
